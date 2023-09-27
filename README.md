@@ -1,4 +1,4 @@
-# Docker Compose Setup for Kafka and Zookeeper And Kafka Interface
+# Docker Setup for Kafka and Zookeeper And Kafka Interface
 
 This Docker Compose configuration file (`docker-compose.yaml`) sets up Kafka and Zookeeper services using Confluent's official Docker images. It also includes Python scripts (`producer.py` and `consumer.py`) for producing and consuming messages from Kafka topics. Below, you'll find instructions on how to set up and use this environment.
 
