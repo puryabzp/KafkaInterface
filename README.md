@@ -83,7 +83,7 @@ You can access the Kafka container's bash shell to interact with Kafka using com
    ```
    Consume all historical messages and future ones in a Kafka topic:
    ```bash
-      kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test_topic --from-beginning
+      kafka-console-consumer --bootstrap-server localhost:9092 --topic test_topic --from-beginning
    ```
 ## Producing Messages
 
