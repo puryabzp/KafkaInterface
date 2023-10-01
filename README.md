@@ -87,7 +87,7 @@ You can access the Kafka container's bash shell to interact with Kafka using com
    ```
 7. To change the size-based retention for a topic, you can use the kafka-configs tool as follows:
    ```bash
-      kafka-configs.sh --bootstrap-server localhost:9092 --alter --entity-type topics --entity-name <TOPIC_NAME> --add-config retention.ms=<NEW_RETENTION_TIME_IN_MILLISECONDS>
+      kafka-configs --bootstrap-server localhost:9092 --alter --entity-type topics --entity-name <TOPIC_NAME> --add-config retention.ms=<NEW_RETENTION_TIME_IN_MILLISECONDS>
    ```
 ## Producing Messages
 
