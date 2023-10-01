@@ -85,6 +85,10 @@ You can access the Kafka container's bash shell to interact with Kafka using com
    ```bash
       kafka-console-consumer --bootstrap-server localhost:9092 --topic test_topic --from-beginning
    ```
+7. To change the size-based retention for a topic, you can use the kafka-configs tool as follows:
+   ```bash
+      kafka-configs.sh --bootstrap-server localhost:9092 --alter --entity-type topics --entity-name <TOPIC_NAME> --add-config retention.ms=<NEW_RETENTION_TIME_IN_MILLISECONDS>
+   ```
 ## Producing Messages
 
 To produce messages to a Kafka topic, use the `producer.py` script. Follow these steps:
