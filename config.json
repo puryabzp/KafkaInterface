@@ -1,0 +1,5 @@
+{
+  "bootstrap_servers": "localhost:9092",
+  "group_id": "your_consumer_group",
+  "topics": ["add_your_desired_topics_here"]
+}
